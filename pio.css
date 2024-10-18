@@ -1,0 +1,76 @@
+.woj1{
+    height: 110px;
+    width: 110px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.datop{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+    height: 20vh;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.datopleft{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+.damid{
+    display: flex;
+    justify-content: space-between;
+    height: 78.1vh;
+}
+table{
+    margin-left: 6vw;
+    border: 2px solid black;
+    width: 60vw;
+    height: 65vh;
+}
+td, th{
+    padding: 3px;
+}
+.dabot{
+    background-color: black;
+    color: white;
+}
+.nine:hover{
+    background-color: black;
+    color: white;
+}
+.damidright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    margin-right: 4vw;
+
+}
+button{
+    background-color: white;
+    border: 0;
+
+}
+button:hover{
+    background-color: lightgray;
+}
+a{
+    color: white;
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    text-decoration: double;
+}
+
